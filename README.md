@@ -4,7 +4,7 @@ Analyser des Tweets en utilisant Flume, et Hadoop et Hive.
 
 C'est quoi Hadoop ? 
 
-Hadoop tout simplement un framework open source qui fournit une implémentation du MapReduce de google et de son système de fichiers distribué. Le MapReduce a été conçu pour faire
+Hadoop est tout simplement un framework open source qui fournit une implémentation du MapReduce de google et de son système de fichiers distribué. Le MapReduce a été conçu pour faire
 du traitement paralléle à l'aide d'un cluster. Haddop implémente bien ceci en facilitant la création d'application distribué au niveau du stockage et du traitement des données.
 
 
@@ -28,10 +28,10 @@ Hive est prés installé sur Hadoop
 
 Comment procéder ? 
 
-	- Mettre en installer place Haddop
-    - Mettre en Place et installer en place Fulme
-	- Créer une application tweeter   "https://dev.twitter.com/apps/"
-	- Configurer Flume pour récupérer les donées de l'application Tweeter
+	- Mettre en place et installer Haddop
+    - Mettre en Place et installer Flume
+	- Créer une application tweeter "https://dev.twitter.com/apps/"
+	- Configurer Flume pour récupérer les données de l'application Tweeter
 	- Configurer Flume pour en précisent l'emplacement du HDFS (Ou il va écrire les tweets)
 	- Démarer Flume et Tester si les données sont bien écrits sur HDFS
 	- Configurer Hive Pour faire l'analyse des données 
