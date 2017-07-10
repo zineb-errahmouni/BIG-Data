@@ -22,19 +22,20 @@ des services de requétes et d'agrégation de trés gros volumes de données sto
 Hive est prés installé sur Hadoop
 
 
+![alt text](https://github.com/zineb-errahmouni/BIG-Data/blob/master/sh%C3%A9ma.PNG)
 
 
 
 Comment procéder ? 
 
-1 - Mettre en installer place Haddop
-2 - Mettre en Place et installer en place Fulme
-3 - Créer une application tweeter   "https://dev.twitter.com/apps/"
-4 - Configurer Flume pour récupérer les donées de l'application Tweeter
-5 - Configurer Flume pour en précisent l'emplacement du HDFS (Ou il va écrire les tweets)
-6 - Démarer Flume et Tester si les données sont bien écrits sur HDFS
-7 - Configurer Hive Pour faire l'analyse des données 
-8 - Tenter de faire des requêtes sur les données (HiveQL, langage de rquéte basé sur SQL)
+	- Mettre en installer place Haddop
+    - Mettre en Place et installer en place Fulme
+	- Créer une application tweeter   "https://dev.twitter.com/apps/"
+	- Configurer Flume pour récupérer les donées de l'application Tweeter
+	- Configurer Flume pour en précisent l'emplacement du HDFS (Ou il va écrire les tweets)
+	- Démarer Flume et Tester si les données sont bien écrits sur HDFS
+	- Configurer Hive Pour faire l'analyse des données 
+	- Tenter de faire des requêtes sur les données (HiveQL, langage de rquéte basé sur SQL)
  
 
 
